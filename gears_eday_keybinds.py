@@ -948,8 +948,8 @@ def run_gui(initial=None):
                   font=("TkDefaultFont", 11, "bold")).pack()
         ttk.Label(frm, text="Created by Ahri").pack(pady=(10, 4))
         for text, url in (("twitter.com/Ahrisss", "https://twitter.com/Ahrisss"),
-                          ("twitch.tv/ahri", "https://twitch.tv/ahri"),
-                          ("steamcommunity.com/id/ahri", "https://steamcommunity.com/id/ahri")):
+                          ("github.com/Ahris/gears-eday-keybind-editor",
+                           "https://github.com/Ahris/gears-eday-keybind-editor/")):
             link = tk.Label(frm, text=text, fg=pal["link"], bg=pal["bg"], cursor="hand2",
                             font=("TkDefaultFont", 10, "underline"))
             link.pack(pady=1)
