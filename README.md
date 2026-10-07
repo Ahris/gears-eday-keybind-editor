@@ -1,6 +1,6 @@
 # Gears of War: E-Day Keybind Editor
 
-A small tool for viewing and changing your **keyboard and mouse binds** in Gears of War: E-Day by editing the game's settings file directly.
+A small tool for viewing and changing your **keyboard and mouse binds** in Gears of War: E-Day by editing the game's "encrypted" .sav settings file directly.
 This has ONLY been tested on the Steam version so far, I do not know where the WinSDK/Gamepass version saves its configs, it could be in the same place so it might work.
 
 ## Requirements
@@ -27,6 +27,8 @@ To just print your binds without opening the window:
 ```
 python gears_eday_keybinds.py --dump
 ```
+
+- Or just download the compiled .exe in the releases tab, whatever works for you.
 
 ## Extra
 
